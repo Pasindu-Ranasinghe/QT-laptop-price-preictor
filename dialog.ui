@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>laptopPrice_obj</class>
+ <widget class="QDialog" name="laptopPrice_obj">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>464</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Laptop Price Predictor</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Details of the laptop</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="3" column="1">
+         <widget class="QComboBox" name="comboBox_2">
+          <item>
+           <property name="text">
+            <string>2 in 1 Convertible</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Gaming</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Note Book</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Net Book</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Ultra Book</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Work Station</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QComboBox" name="comboBox_5">
+          <item>
+           <property name="text">
+            <string>Intel</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>AMD</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Nvidia</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>&amp;Type name</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_2</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>&amp;Operating System</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_3</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>C&amp;PU</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_4</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>&amp;Weight (kg)</string>
+          </property>
+          <property name="buddy">
+           <cstring>doubleSpinBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QSpinBox" name="spinBox">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ram size of the laptop&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QComboBox" name="comboBox_3">
+          <item>
+           <property name="text">
+            <string>Windows</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Mac</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Linux</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Other</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QDoubleSpinBox" name="doubleSpinBox">
+          <property name="toolTip">
+           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Weight of the laptop in kilos&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+          </property>
+          <property name="decimals">
+           <number>3</number>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QComboBox" name="comboBox_4">
+          <item>
+           <property name="text">
+            <string>Intel Core i3</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Intel Core i5</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Intel Core i7</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>AMD</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Other</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>GP&amp;U</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_5</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QComboBox" name="comboBox">
+          <item>
+           <property name="text">
+            <string>Acer</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Apple</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Azus</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Dell</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Hp</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Lenovo</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>MSI</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Toshiba</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Other</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>&amp;Company</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>&amp;Memory (GB)</string>
+          </property>
+          <property name="buddy">
+           <cstring>spinBox</cstring>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QCheckBox" name="checkBox">
+          <property name="text">
+           <string>&amp;Touch Screen</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="text">
+           <string>&amp;IPS</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="minimumSize">
+        <size>
+         <width>110</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Click here to predict the price&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="text">
+        <string>Price Pre&amp;dict</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>14</width>
+         <height>48</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Results</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="label_8">
+        <property name="font">
+         <font>
+          <pointsize>25</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Rs.</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLCDNumber" name="lcdNumber">
+        <property name="minimumSize">
+         <size>
+          <width>300</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="smallDecimalPoint">
+         <bool>true</bool>
+        </property>
+        <property name="digitCount">
+         <number>15</number>
+        </property>
+        <property name="segmentStyle">
+         <enum>QLCDNumber::Flat</enum>
+        </property>
+        <property name="intValue" stdset="0">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>laptopPrice_obj</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>401</x>
+     <y>387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>224</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>laptopPrice_obj</receiver>
+   <slot>hide()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>318</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>224</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
